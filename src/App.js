@@ -16,7 +16,7 @@ function App() {
           <section className="data__body">
             <section className="main-beach-whale-data__div">
               <h2 className="data-title__h2">Beach and Whale Sightings Data</h2>
-              <a className="link-to-repo__a" href="https://github.com/matthewdshepherd/whalewatchers" target="_blank">Get Further API Documentaion Here</a>
+              <a className="link-to-repo__a" href="https://github.com/matthewdshepherd/whaleSightings" target="_blank">Get Further API Documentaion Here</a>
               <p className="data-about">This API provides data on 98 public beaches spanning all California counties. Each location includes information about the beach, including location, type of access and parking. Each beach has the 100 most whale sightings within 10 miles of the beach as of  November 2019. 14 whale and marine animal species are included in the sightings of
   each beach.</p>
             </section>
