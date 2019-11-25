@@ -107,6 +107,10 @@ padding: 0 7%;
   margin: 30px 0 20px 0;
 }
 
+.api-link__h4 {
+  text-decoration:none; 
+}
+
 .whale-species_h2 {
   color: #606060;
   font-weight: 400;
