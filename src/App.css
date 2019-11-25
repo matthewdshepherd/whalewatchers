@@ -71,6 +71,12 @@ header {
 margin: 20px 0 0 0;
 }
 
+.link-to-repo__a {
+  color: #FFF;
+  text-decoration:none; 
+  cursor:pointer; 
+}
+
 .data-about {
 margin: 20px 0;
 padding: 0 7%;

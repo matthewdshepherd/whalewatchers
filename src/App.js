@@ -15,7 +15,8 @@ function App() {
         <div className="main-top-color__div"></div>
           <section className="data__body">
             <section className="main-beach-whale-data__div">
-              <h2 className="data-title__h2">Beach and Wahle Sightings Data</h2>
+              <h2 className="data-title__h2">Beach and Whale Sightings Data</h2>
+              <a className="link-to-repo__a" href="https://github.com/matthewdshepherd/whalewatchers" target="_blank">Get Further API Documentaion Here</a>
               <p className="data-about">This API provides data on 98 public beaches spanning all California counties. Each location includes information about the beach, including location, type of access and parking. Each beach has the 100 most whale sightings within 10 miles of the beach as of  November 2019. 14 whale and marine animal species are included in the sightings of
   each beach.</p>
             </section>
@@ -69,7 +70,7 @@ function App() {
                 <h4 className="api-link__h4">www.heroku.com <span className="api-link__span">/api/v1/beaches</span></h4>
                 <div className="fetch__div">
                   <p className="fetch--request__p">POST</p>
-                  <p className="fetch--request--return__p">reates a new beach, must in JSON format</p>
+                  <p className="fetch--request--return__p">Creates a new beach, must in JSON format</p>
                 </div>
                 <div className="api-bottom-seperator__div"></div>
               </div>
