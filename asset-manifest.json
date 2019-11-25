@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/whalewatchers/static/css/main.7118c53a.chunk.css",
-    "main.js": "/whalewatchers/static/js/main.63969aa9.chunk.js",
-    "main.js.map": "/whalewatchers/static/js/main.63969aa9.chunk.js.map",
+    "main.js": "/whalewatchers/static/js/main.2b60570d.chunk.js",
+    "main.js.map": "/whalewatchers/static/js/main.2b60570d.chunk.js.map",
     "runtime-main.js": "/whalewatchers/static/js/runtime-main.82d644b7.js",
     "runtime-main.js.map": "/whalewatchers/static/js/runtime-main.82d644b7.js.map",
     "static/js/2.18204bcc.chunk.js": "/whalewatchers/static/js/2.18204bcc.chunk.js",
     "static/js/2.18204bcc.chunk.js.map": "/whalewatchers/static/js/2.18204bcc.chunk.js.map",
     "index.html": "/whalewatchers/index.html",
-    "precache-manifest.a10039056989ba5c94bdb1df17d37456.js": "/whalewatchers/precache-manifest.a10039056989ba5c94bdb1df17d37456.js",
+    "precache-manifest.76003310d2212b048bdcaf8a04cf9072.js": "/whalewatchers/precache-manifest.76003310d2212b048bdcaf8a04cf9072.js",
     "service-worker.js": "/whalewatchers/service-worker.js",
     "static/css/main.7118c53a.chunk.css.map": "/whalewatchers/static/css/main.7118c53a.chunk.css.map",
     "static/media/logo.svg": "/whalewatchers/static/media/logo.25bf045c.svg"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.82d644b7.js",
     "static/js/2.18204bcc.chunk.js",
     "static/css/main.7118c53a.chunk.css",
-    "static/js/main.63969aa9.chunk.js"
+    "static/js/main.2b60570d.chunk.js"
   ]
 }

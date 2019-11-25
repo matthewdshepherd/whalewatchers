@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/whalewatchers/precache-manifest.a10039056989ba5c94bdb1df17d37456.js"
+  "/whalewatchers/precache-manifest.76003310d2212b048bdcaf8a04cf9072.js"
 );
 
 self.addEventListener('message', (event) => {
