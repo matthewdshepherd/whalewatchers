@@ -22,8 +22,8 @@ function App() {
             </section>
             <section className="api-block__section">
               <div className="api-block__section__div">
-                <h4 className="whale-species_h2">Available Whale & Marine Animal Species:</h4>
-                <p className="whales-available__p">Orca<br/>Humpback<br/>Gray Whale<br/>Pacific Bottle Nose Dolphin</p>
+                <h4 className="whale-species_h2">Sighting Available For Following Whale & Marine Animal Species:</h4>
+                <p className="whales-available__p">orca<br/> minke<br/> gray whale<br/> humpback<br/> atlantic white-sided dolphin<br/> pacific white-sided dolphin<br/> dalls porpoise<br/> harbor porpoise<br/> harbor seal<br/> northern elephant seal<br/> southern elephant seal<br/> california sea Lion<br/> steller sea lion<br/> sea otter<br/> other and unknown</p>
                 <div className="api-bottom-seperator__div"></div>
               </div>
               <div className="api-block__section__div">
