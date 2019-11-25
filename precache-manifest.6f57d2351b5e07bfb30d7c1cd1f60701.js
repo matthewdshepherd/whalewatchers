@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "94a7a88e173127775c6975b631047d84",
+    "revision": "07aad1d306c90298e512c833d8374617",
     "url": "/whalewatchers/index.html"
   },
   {
-    "revision": "620de2d7ba867c6c2da0",
+    "revision": "d3a1db6eb435a1a7d528",
     "url": "/whalewatchers/static/css/main.7118c53a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whalewatchers/static/js/2.18204bcc.chunk.js"
   },
   {
-    "revision": "620de2d7ba867c6c2da0",
-    "url": "/whalewatchers/static/js/main.2b60570d.chunk.js"
+    "revision": "d3a1db6eb435a1a7d528",
+    "url": "/whalewatchers/static/js/main.955ddb36.chunk.js"
   },
   {
     "revision": "34f44a00916740974d80",
