@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div classname="App">
+    <div className="App">
       <header>
         <div className="title-holder">
           <h1 className="title__header">California Whale Watchers</h1>
@@ -13,28 +13,83 @@ function App() {
       </header>
       <main>
         <div className="main-top-color__div"></div>
-          <body classname="data__body">
+          <section className="data__body">
             <section className="main-beach-whale-data__div">
-              <h2>Beach and Wahle Sightings Data</h2>
-              <p>This API provides data on 98 public beaches spanning all California counties. Each location includes information about the beach, including location, type of access and parking. Each beach has the 100 most whale sightings within 10 miles of the beach as of  November 2019. 14 whale and marine animal species are included in the sightings of
+              <h2 className="data-title__h2">Beach and Wahle Sightings Data</h2>
+              <p className="data-about">This API provides data on 98 public beaches spanning all California counties. Each location includes information about the beach, including location, type of access and parking. Each beach has the 100 most whale sightings within 10 miles of the beach as of  November 2019. 14 whale and marine animal species are included in the sightings of
   each beach.</p>
             </section>
             <section className="api-block__section">
               <div className="api-block__section__div">
-                <h4>Available Whale & Marine Animal Species:</h4>
-                <p>Orca<br/>Humpback<br/>Gray Whale<br/>Pacific Bottle Nose Dolphin</p>
+                <h4 className="whale-species_h2">Available Whale & Marine Animal Species:</h4>
+                <p className="whales-available__p">Orca<br/>Humpback<br/>Gray Whale<br/>Pacific Bottle Nose Dolphin</p>
                 <div className="api-bottom-seperator__div"></div>
               </div>
               <div className="api-block__section__div">
-                <h4 className="api-link__h4">www.heroku.com/api/v1/beaches</h4>
+                <h4 className="api-link__h4">www.heroku.com <span className="api-link__span">/api/v1/beaches</span></h4>
                 <div className="fetch__div">
-                  <p classname="fetch--request__p">GET</p>
-                  <p classname="fetch--request--return__p">Returns all beaches in JSON format</p>
-                  <div className="api-bottom-seperator__div"></div>
+                  <p className="fetch--request__p">GET</p>
+                  <p className="fetch--request--return__p">Returns all beaches in JSON format</p>
+                </div>
+                <div className="api-bottom-seperator__div"></div>
+              </div>
+              <div className="api-block__section__div">
+                <h4 className="api-link__h4">www.heroku.com <span className="api-link__span">v1/beaches/:id</span></h4>
+                <div className="fetch__div">
+                  <p className="fetch--request__p">GET</p>
+                  <p className="fetch--request--return__p">Returns a specific beach sightings in JSON format</p>
+                </div>
+                <div className="api-bottom-seperator__div"></div>
+              </div>
+              <div className="api-block__section__div">
+                <h4 className="api-link__h4">www.heroku.com <span className="api-link__span">/api/v1/whale_sightings</span></h4>
+                <div className="fetch__div">
+                  <p className="fetch--request__p">GET</p>
+                  <p className="fetch--request--return__p">Returns all whale sightings in JSON format</p>
+                </div>
+                <div className="api-bottom-seperator__div"></div>
+              </div>
+              <div className="api-block__section__div">
+                <h4 className="api-link__h4">www.heroku.com <span className="api-link__span">/api/v1/beaches/:id/whale_sightings</span></h4>
+                <div className="fetch__div">
+                  <p className="fetch--request__p">GET</p>
+                  <p className="fetch--request--return__p">Returns 100 most recent whale sightings for specific beach in JSON format</p>
+                </div>
+                <div className="api-bottom-seperator__div"></div>
+              </div>
+              <div className="api-block__section__div">
+                <h4 className="api-link__h4">www.heroku.com <span className="api-link__span">/api/v1/beaches/sighting_type/:id</span></h4>
+                <div className="fetch__div">
+                  <p className="fetch--request__p">GET</p>
+                  <p className="fetch--request--return__p">Returns all beaches where there was a whale/marine animal sighting of the requested type in JSON format</p>
+                </div>
+                <div className="api-bottom-seperator__div"></div>
+              </div>
+              <div className="api-block__section__div">
+                <h4 className="api-link__h4">www.heroku.com <span className="api-link__span">/api/v1/beaches</span></h4>
+                <div className="fetch__div">
+                  <p className="fetch--request__p">POST</p>
+                  <p className="fetch--request--return__p">reates a new beach, must in JSON format</p>
+                </div>
+                <div className="api-bottom-seperator__div"></div>
+              </div>
+              <div className="api-block__section__div">
+                <h4 className="api-link__h4">www.heroku.com <span className="api-link__span">/api/v1/whale_sightings</span></h4>
+                <div className="fetch__div">
+                  <p className="fetch--request__p">POST</p>
+                  <p className="fetch--request--return__p">Creates a new whale sighting, must send in JSON format</p>
+                </div>
+                <div className="api-bottom-seperator__div"></div>
+              </div>
+              <div className="api-block__section__div">
+                <h4 className="api-link__h4">www.heroku.com <span className="api-link__span">/api/v1/whale_sightings/:id</span></h4>
+                <div className="fetch__div">
+                  <p className="fetch--request__p">DELETE</p>
+                  <p className="fetch--request--return__p">Deletes whale sighting</p>
                 </div>
               </div>
             </section>
-          </body>
+          </section>
       </main>
     </div>
   );
